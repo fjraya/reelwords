@@ -1,6 +1,5 @@
 package infrastructure
 
-import infrastructure.ReelsRepository
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 
