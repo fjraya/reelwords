@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domain.TrieTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-01-26T08:54:02" hostname="franraya.local" time="0.087">
+  <properties/>
+  <testcase name="whenInsertMultipleWordsReturnCorrectResult()" classname="domain.TrieTest" time="0.019"/>
+  <testcase name="whenInsertTwiceTheSameWordIdempotency()" classname="domain.TrieTest" time="0.001"/>
+  <testcase name="[1] parallel, parallel, true" classname="domain.TrieTest" time="0.019"/>
+  <testcase name="[2] , , true" classname="domain.TrieTest" time="0.0"/>
+  <testcase name="[3] , hola, false" classname="domain.TrieTest" time="0.002"/>
+  <testcase name="[4] cats, cat, false" classname="domain.TrieTest" time="0.001"/>
+  <testcase name="[5] cat, cats, false" classname="domain.TrieTest" time="0.001"/>
+  <testcase name="whenInsertOverlappingWordsAndDeleteReturnCCorrectResult()" classname="domain.TrieTest" time="0.002"/>
+  <testcase name="whenInsertMultipleWordsAndDeleteReturnCorrectResult()" classname="domain.TrieTest" time="0.001"/>
+  <testcase name="whenInsertAnotherMultipleWordsAndDeleteReturnCorrectResult()" classname="domain.TrieTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
