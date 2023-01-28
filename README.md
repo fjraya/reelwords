@@ -1,6 +1,6 @@
 ### Notes
 
-I don't spend much time in first main function. Of course I can do more componetized code 
+I haven't spent much time in first main function. Of course I can do more componetized code 
 to get a word from standard input, but I have focused the assestment in the rest of components.
 
 
